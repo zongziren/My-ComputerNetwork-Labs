@@ -8,10 +8,10 @@
 ## 1. The Basic HTTP GET/response interaction
 
 - The picture of the wireshark.
-  ![](./1.1.png)
+  ![](./asset/1.1.png)
 
 - The picture of the http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html
-  ![](./1.2.png)
+  ![](./asset/1.2.png)
 
 ### Q1 Is your browser running HTTP version 1.0 or 1.1? What version of HTTP is the server running?
 
@@ -47,9 +47,9 @@ No, all of the headers can be found in the raw data.
 ## 2. The HTTP CONDITIONAL GET/response interaction
 
 - The picture of the wireshark.
-  ![](./2.1.png)
+  ![](./asset/2.1.png)
 - The picture of the http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html
-  ![](./2.2.png)
+  ![](./asset/2.2.png)
 
 ### Q8. Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an “IF-MODIFIED-SINCE” line in the HTTP GET?
 
@@ -74,10 +74,10 @@ Yes,we can see the contents in the Line-based text data field,and the content-Le
 ## 3. Retrieving Long Documents
 
 - The picture of the wireshark.
-  ![](./3.1.png)
+  ![](./asset/3.1.png)
 
 - The picture of the http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html
-  ![](./3.2.png)
+  ![](./asset/3.2.png)
 
 ### Q12. How many HTTP GET request messages did your browser send? Which packet number in the trace contains the GET message for the Bill or Rights?
 
@@ -99,10 +99,10 @@ The first packet(166).
 ## 4.HTML Documents with Embedded Objects
 
 - The picture of the wireshark.
-  ![](./4.1.png)
+  ![](./asset/4.1.png)
 
 - The picture of the http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html
-  ![](./4.2.png)
+  ![](./asset/4.2.png)
 
 ### Q16. How many HTTP GET request messages did your browser send? To which Internet addresses were these GET requests sent?
 
@@ -120,13 +120,13 @@ Browser send 3 request
 ## 5.HTTP Authentication
 
 - The picture of the wireshark.
-  ![](./5.1.png)
+  ![](./asset/5.1.png)
 
 - The picture before enter the web.
-  ![](./5.3.png)
+  ![](./asset/5.3.png)
 
 - The picture of the http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file5.html
-  ![](./5.2.png)
+  ![](./asset/5.2.png)
 
 ### Q18. What is the server’s response (status code and phrase) in response to the initial HTTP GET message from your browser?
 
